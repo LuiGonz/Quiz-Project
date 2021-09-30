@@ -9,7 +9,7 @@ var usersScore = document.querySelector("#previous-score");
 
 //FUNCTION TO START TIMER
 startBtn.addEventListener('click', function(event) {
-  var timeLeft = 60;
+  var timeLeft = 30;
   event.preventDefault;
   // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   var timerInterval = setInterval(function () {
@@ -198,3 +198,7 @@ let currentSlide = 0;
 //Event Listeners
 submitBtn.addEventListener('click', displayResults);
 nextBtn.addEventListener("click", showNextSlide);
+
+function reloadThePage(){
+    window.location.reload();
+}

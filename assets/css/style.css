@@ -91,6 +91,10 @@ body {
     color: white;
     border-radius: 4em;
   }
+
+  #restart-quiz {
+    background-color: teal;
+  }
   
   .quiz-section {
     text-align: left;
