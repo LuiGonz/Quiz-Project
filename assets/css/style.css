@@ -17,12 +17,17 @@ body {
     background-color: rgb(0, 180, 75);
     padding: 20px;
     margin-bottom: -20px;
+    border-radius: 3em;
   }
 
   header h1 {
     display: flex;
     justify-content: center;
     padding: 10px;
+  }
+
+  h2 {
+      padding-left: 3em;
   }
   
   .slide{
@@ -33,6 +38,10 @@ body {
     z-index: 1;
     opacity: 0;
     transition: opacity 0.5s;
+    color: rgb(176, 246, 255);
+    padding-left: 3.5em;
+    padding-top: 2em;
+    font-size: larger;
   }
   
   .active-slide{
@@ -47,8 +56,14 @@ body {
   }
   
   .minute-countdown {
-    float: right;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* float: center; */
+    padding-top: 2em;
+  }
+
+  .timer-heading {
+    padding-left: 0px;
   }
   
   input {
@@ -81,20 +96,37 @@ body {
     text-align: left;
     color: yellow;
     background-color: blue;
+    border-radius: 3em;
   }
   
   .results-section {
       margin-top: 20px;
       background-color: turquoise;
+      border-radius: 3em;
   }
 
   #user {
     height: 50px;
     background-color: rgb(255, 96, 5);
     color: white;
+    padding-left: 4em;
+    padding-top: 2em;
+    font-size: larger;
+    border-radius: 3em;
+  }
+
+  #users-name,
+  #previous-score {
+      color: turquoise;
   }
 
   .score-card {
     background-color: blueviolet;
     padding: 5px 5px 30px 5px;
+    border-radius: 3em;
   }
+
+    p {
+      padding-left: 3.7em;
+      font-size: larger;
+    }

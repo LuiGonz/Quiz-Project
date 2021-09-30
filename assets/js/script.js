@@ -182,7 +182,7 @@ const myQuestions = [
     answers: {
       A: "Mammoths",
       B: "Sabre-toothed cats",
-      C: "Both answers above are wrong"
+      C: "Both above are wrong"
     },
     correctAnswer: "C"
   }
