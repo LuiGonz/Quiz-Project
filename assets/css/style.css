@@ -96,6 +96,11 @@ body {
     background-color: teal;
   }
   
+  a {
+    text-decoration: none;
+    color: yellowgreen;
+  }
+  
   .quiz-section {
     text-align: left;
     color: yellow;
